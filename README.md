@@ -100,7 +100,7 @@
 и др.
 
 
-[Отчёты по Cisco Packet Tracer](https://drive.google.com/drive/folders/1vXWb_5c29HbrwJWEsQoZt3aMg8eC1MVg?usp=sharing)
+[Отчёты по Cisco Packet Tracer](https://drive.google.com/file/d/1Y14Bh0WYZQ-vuEHjeLhwZzGX3sHYMJPv/view?usp=share_link)
 
 
 
