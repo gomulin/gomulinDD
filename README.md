@@ -107,6 +107,6 @@
 # Экзаменационный билет №2
 ## Ответ на экзаменационный [билет №2](https://github.com/stankin/inet-2022/wiki/exam02) представлен в разделе "билеты к экзамену".
 Вклад в разработку "подсказок" к билету:
-[Сравнение ревизий]([Билет №2.pdf](https://github.com/gomulin/gomulinDD/files/10277553/Bilet2.pdf)
+[Билет №2.pdf](https://github.com/gomulin/gomulinDD/files/10277553/Bilet2.pdf)
 
 
