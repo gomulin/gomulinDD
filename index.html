@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles/main.css" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Markov</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="media/logo_white.png" />
+            </div>
+            <div class="discipline">
+                <h3>Интернет технологии</h3>
+            </div>
+            <div class="name">
+                Марков Даниил <br />
+                Студент группы ИДМ-22-02
+            </div>
+        </header>
+        <main>
+            <div class="mainTitle">
+                <h3>Список лабораторных работ</h3>
+            </div>
+            <div class="worksList">
+                <div id="btn1" class="worksList__el_active" onclick="changeLab(1)">Лабораторная №1</div>
+                <div id="btn2" class="worksList__el" onclick="changeLab(2)">Лабораторная №2</div>
+                <div id="btn3" class="worksList__el" onclick="changeLab(3)">Лабораторная №3</div>
+            </div>
+            <hr />
+            <div class="container">
+                <div id="lab1">
+                    <div class="github">
+                        <div class="info">
+                            <div class="info__avatar">
+                                <img src="media/github.png" />
+                            </div>
+                            <div class="info__name">GitHub</div>
+                            <div class="info__description">Экосистема разработки программ с открытым кодом</div>
+                        </div>
+                        <div class="tasks">
+                            <div class="tasks__title">Выполненные задачи</div>
+                            <div class="tasks__elements">
+                                <div class="task">
+                                    <div class="task__title">1. Регистрация на GitHub</div>
+                                    <div class="task__desc">Была создана личная страничка на GitHub</div>
+                                    <div class="task__links">
+                                        <div class="task__links_circle1"></div>
+                                        <div class="task__links_link">
+                                            <a href="https://github.com/DanyaMarkov" target="_blank">
+                                                Страница пользователя</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="task">
+                                    <div class="task__title">2. Создать репозиторий с личным отчётом</div>
+                                    <div class="task__desc">
+                                        Был создан личный репозиторий, который содержит описание выполнения лабораторных
+                                        работ
+                                    </div>
+                                    <div class="task__links">
+                                        <div class="task__links_circle2"></div>
+                                        <div class="task__links_link">
+                                            <a
+                                                href="https://github.com/DanyaMarkov/Stankin_InternetTechnologies"
+                                                target="_blank"
+                                            >
+                                                Репозиторий с исходным кодом</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="task">
+                                    <div class="task__title">3. Создать персональную страницу-отчёт</div>
+                                    <div class="task__desc">
+                                        На хостинге github-pages был выложен персональный сайт-отчёт
+                                    </div>
+                                    <div class="task__links">
+                                        <div class="task__links_circle3"></div>
+                                        <div class="task__links_link">
+                                            <a
+                                                href="https://danyamarkov.github.io/Stankin_InternetTechnologies/"
+                                                target="_blank"
+                                            >
+                                                Страница-отчёт</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="lab2">
+                    <div class="turing">
+                        <div class="rectangle"></div>
+                        <div class="turing__mainInfo">
+                            <h2>
+                                В рамках Лабораторной работы №2 было разработано веб-приложение "Симулятор машины
+                                Тьюринга" со следующим функционалом:
+                            </h2>
+
+                            <p>1. Полнофункциональная машина Тьюринга</p>
+                            <p>2. Обучение работе с машиной Тюринга</p>
+                            <p>3. Прохождение практических задач, основанных на машине Тьюринга</p>
+                        </div>
+                        <div class="turing__technologies">
+                            <h3>Используемые технологии :</h3>
+                            <p></p>
+                            <h4>
+                                Веб-приложение представляет из себя
+                                <a
+                                    href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%BD%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5"
+                                    target="_blank"
+                                >
+                                    SPA
+                                </a>
+                                (одностраничное приложение), <br />
+                                выполненое на ReactJS
+                            </h4>
+                            <p>
+                                - Язык программирования TypeScript
+                                <a href="https://www.typescriptlang.org/" target="_blank" alt="TypeScript">
+                                    <img
+                                        src="https://iconape.com/wp-content/png_logo_vector/typescript.png"
+                                        height="20"
+                                    />
+                                </a>
+                            </p>
+
+                            <p>
+                                - Стейт-менеджер MobX
+                                <a href="https://mobx.js.org/" target="_blank" alt="TypeScript">
+                                    <img
+                                        src="https://miro.medium.com/max/400/1*nvHO6KuxX5B6FVXZ_hqTZw.png"
+                                        height="20"
+                                    />
+                                </a>
+                            </p>
+
+                            <p>
+                                - Язык гипертекстовой разметки HTML
+                                <a href="http://htmlbook.ru/html" target="_blank" alt="Sass">
+                                    <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+                                        height="20"
+                                    />
+                                </a>
+                            </p>
+
+                            <p>
+                                - Каскадная таблица стилей CSS + SCSS
+                                <a
+                                    href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/CSS_basics"
+                                    target="_blank"
+                                    alt="Sass"
+                                >
+                                    <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" height="20" />
+                                </a>
+
+                                <a href="https://sass-lang.com/" target="_blank" alt="Sass">
+                                    <img
+                                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"
+                                        height="20"
+                                    />
+                                </a>
+                            </p>
+                            <p>Вспомогательные средства:</p>
+                            <p>- Formik - управление формами</p>
+                            <p>- React-router-dom - маршрутизация внутри приложения</p>
+                            <p>- CSS-modules</p>
+                        </div>
+                        <div class="turing__team">
+                            <h3>Состав команды Inscryption:</h3>
+                            <ul>
+                                <li>
+                                    <ul class="turing__team_list">
+                                        ИДМ-22-02: Марков Даниил
+                                        <li>РП (управление проектами)</li>
+                                        <li>ПП (Прикладное программирование)</li>
+                                        <li>СП (системное программирование)</li>
+                                        <li>ВН (Внедрение)</li>
+                                        <li>НИ (Научные исследования)</li>
+                                        <li>АД (Администрирование)</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="turing__team_list">
+                                        ИДМ-22-02: Гомулин Данила
+                                        <li>БА (Бизнес-анализ)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <p>
+                                Репозиторий проекта доступен по ссылке:
+                                <a href="https://github.com/DanyaMarkov/turing-machine-simulator" target="_blank"
+                                    >Репозиторий проекта</a
+                                >
+                            </p>
+                            <p>
+                                Сам проект представлен по ссылке:
+                                <a href="https://danyamarkov.github.io/turing-machine-simulator/" target="_blank"
+                                    >Симулятор машины Тьюринга</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="lab3">
+                    <div class="cisco">
+                        <div class="cisco__title">
+                            Для изучения работы сетевых устройств и их настройки был пройден практический курс Cisco
+                            Packet Tracer. Отчёт о проделанной работе представляет из себя
+                            <a
+                                class="cisco__link"
+                                target="_blank"
+                                href="https://drive.google.com/drive/folders/1vXWb_5c29HbrwJWEsQoZt3aMg8eC1MVg?usp=sharing"
+                            >
+                                сборник сделанных лабораторных работ
+                            </a>
+                            <br />
+
+                            В число лабораторных работ вошли такие работы, как:
+                        </div>
+                        <div class="ciscoLabs">
+                            <a
+                                href="https://drive.google.com/drive/folders/1PCiRzrgjbm8UPoiClDkpEAwgR5sdv3N-"
+                                target="_blank"
+                                class="ciscoWork"
+                            >
+                                <div class="ciscoWork__picture">
+                                    <img src="media/work1.png" alt="" srcset="" />
+                                </div>
+                                <div class="ciscoWork__title">Конфигурация коммутаторов</div>
+                            </a>
+                            <a
+                                href="https://drive.google.com/drive/folders/13R2LZdq-xjlQgvb9-Pht_IG3frSDgIe1"
+                                target="_blank"
+                                class="ciscoWork"
+                            >
+                                <div class="ciscoWork__picture">
+                                    <img src="media/work2.png" alt="" srcset="" />
+                                </div>
+                                <div class="ciscoWork__title">Генерация сетевого трафика</div>
+                            </a>
+                            <a
+                                href="https://drive.google.com/drive/folders/17Fvg4M0dQwD-qhKjjlOuevvH1fwo5LE8"
+                                target="_blank"
+                                class="ciscoWork"
+                            >
+                                <div class="ciscoWork__picture">
+                                    <img src="media/work3.png" alt="" srcset="" />
+                                </div>
+                                <div class="ciscoWork__title">Отправка эхо-запросов</div>
+                            </a>
+                            <a
+                                href="https://drive.google.com/drive/folders/1sJ5wOyL_JMYW9WihOw8Ktfw6PmmnSZE9"
+                                target="_blank"
+                                class="ciscoWork"
+                            >
+                                <div class="ciscoWork__picture">
+                                    <img src="media/work4.png" alt="" srcset="" />
+                                </div>
+                                <div class="ciscoWork__title">Тестирование сквозного подключения</div>
+                            </a>
+                            <a
+                                href="https://drive.google.com/drive/folders/17Fvg4M0dQwD-qhKjjlOuevvH1fwo5LE8"
+                                target="_blank"
+                                class="ciscoWork"
+                            >
+                                <div class="ciscoWork__picture">
+                                    <img src="media/work5.png" alt="" srcset="" />
+                                </div>
+                                <div class="ciscoWork__title">Восстановление подключения</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script src="scripts/main.js"></script>
+</html>
