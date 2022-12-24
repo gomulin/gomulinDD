@@ -108,4 +108,4 @@
 
 Ответ на экзаменационный билет доступен по ссылке: [билет №2](https://github.com/stankin/inet-2022/wiki/exam02)
 
-Индивидуальный реферат доступен по ссылке: [Последний  commit](https://github.com/stankin/inet-2022/wiki/exam02/a54bc9b63bb0c075e9943b9fb9f56c0200ada615)
+<p1>С рефератом можете ознакомиться перейдя по <a href="https://github.com/stankin/inet-2022/wiki/exam02">ссылке</a> (вклад в <a href="https://github.com/stankin/inet-2022/wiki/exam02/_compare/927e7f40b33f025a6e8a878b95212bcf55a24930...33804020be9e487caea7ad861ad012ce98d9f216">реферат</a>). </p1>
